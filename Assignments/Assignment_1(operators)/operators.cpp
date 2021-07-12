@@ -3,20 +3,20 @@ using namespace std;
 
 int main()
 {
-    float sum, a, b, prod, difference, div;
+    float sum, num1, num2, product, difference, division;
     cout << "Enter First number:";
-    cin >> a;
+    cin >> num1;
     cout << "Enter the second num:";
-    cin >> b;
-    sum = a + b;
-    prod = a * b;
-    difference = a - b;
-    div = a / b;
+    cin >> num2;
+    sum = num1 + num2;
+    product = num1 * num2;
+    difference = num1 - num2;
+    division = num1 / num2;
     cout << "The sum is:" << sum << endl
          << "The difference is:" << difference << endl
-         << "The multiplication is:" << prod << endl
-         << "The division is:" << div << endl;
-    if (a > div && prod > difference)
+         << "The multiplication is:" << product << endl
+         << "The division is:" << division << endl;
+    if (num1 > division && product > difference)
     {
         cout << "You are clear in operators" << endl;
     }

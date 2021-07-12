@@ -4,8 +4,10 @@ using namespace std;
 int main()
 {
     int a, b;
-    cout << "Enter any two numbers:";
-    cin >> a >> b;
+    cout << "Enter a numbers:"<<endl;
+    cin >> a;
+    cout<<"Enter second number:"<<endl;
+    cin >> b;
     int calculate = 3;
     switch (calculate)
     {
